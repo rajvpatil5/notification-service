@@ -10,16 +10,3 @@ messaging:
     mqtt:
       enabled: true
 
-  spring:
-    mail:
-      host: smtp.gmail.com
-      port: 587
-      username: rajatpatil.dev@gmail.com
-      password: mypassword
-
-      properties:
-        mail:
-          smtp:
-            auth: true
-            starttls:
-              enable: true
